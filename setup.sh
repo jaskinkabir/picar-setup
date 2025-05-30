@@ -1,6 +1,6 @@
 sudo apt update
 sudo apt upgrade -y
-sudo apt install git
+sudo apt install git python3-pip python3-setuptools python3-smbus
 pip install python-socketio
 
 echo "---------INSTALLING ROBOT HAT----------"
