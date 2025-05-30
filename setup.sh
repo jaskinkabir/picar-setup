@@ -24,3 +24,5 @@ cd picar-x
 sudo python3 setup.py install
 cd ~/
 sudo rm -rf picar-x
+
+pip install python-socketio
