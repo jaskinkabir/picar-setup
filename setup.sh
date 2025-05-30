@@ -1,5 +1,7 @@
 sudo apt update
 sudo apt upgrade -y
+sudo apt install git
+pip install python-socketio
 
 echo "---------INSTALLING ROBOT HAT----------"
 cd ~/
@@ -22,7 +24,7 @@ cd ~/
 git clone -b v2.0 https://github.com/sunfounder/picar-x.git --depth 1
 cd picar-x
 sudo python3 setup.py install
+sudo bash i2samp.sh
 cd ~/
 sudo rm -rf picar-x
 
-pip install python-socketio
